@@ -12,7 +12,7 @@ const Header = () => {
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
-        flutter developer based in Dongthap
+        Flutter developer based in Dongthap
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo">
         I am flutter developer from Dongthap, with 2 years of experience in

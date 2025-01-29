@@ -31,12 +31,8 @@ const Navbar = () => {
           isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""
         }`}
       >
-        <a href="#top">
-          <Image
-            src={assets.logo}
-            className="w-28 cursor-pointer mr-14"
-            alt=""
-          />
+        <a href="#top" className="hover:border border-transparent">
+          <div className="font-bold font-xl">Quang Thien</div>
         </a>
 
         <ul
