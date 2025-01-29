@@ -113,19 +113,19 @@ export const serviceData = [
       "Mobile app development involves creating software for mobile devices...",
     link: "",
   },
-  {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
-    description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
-  },
-  {
-    icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
-    link: "",
-  },
+  // {
+  //   icon: assets.ui_icon,
+  //   title: "UI/UX design",
+  //   description:
+  //     "UI/UX design focuses on creating a seamless user experience...",
+  //   link: "",
+  // },
+  // {
+  //   icon: assets.graphics_icon,
+  //   title: "Graphics design",
+  //   description: "Creative design solutions to enhance visual communication...",
+  //   link: "",
+  // },
 ];
 
 export const infoList = [
