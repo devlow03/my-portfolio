@@ -14,6 +14,9 @@ const ovo = Ovo({
 export const metadata = {
   title: "Portfolio - QuangThien",
   description: "",
+  icons: {
+    icon: [{ url: "avatar.png", href: "avatar.png" }],
+  },
 };
 
 export default function RootLayout({ children }) {

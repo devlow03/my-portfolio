@@ -18,10 +18,10 @@ const About = () => {
 
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Flutter Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I am a Flutter developer with nearly 2 years of experience.
+            Throughout my career, I have participated in multiple real-world
+            projects, collaborating with reputable organizations to contribute
+            to their success and growth.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">

@@ -78,14 +78,16 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
+    title: "Web admin ecomerce",
     description: "Web Design",
     bgImage: "/work-1.png",
+    link: "https://github.com/qthien202/web_ft_admin_tmart.git",
   },
   {
-    title: "Geo based app",
+    title: "Social App",
     description: "Mobile App",
-    bgImage: "/work-2.png",
+    bgImage: "/work_5.png",
+    link: "https://github.com/qthien202/app-tcareer",
   },
   // {
   //   title: "Photography site",

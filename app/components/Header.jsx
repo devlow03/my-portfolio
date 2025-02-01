@@ -15,8 +15,8 @@ const Header = () => {
         Flutter developer based in Dongthap
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo">
-        I am flutter developer from Dongthap, with 2 years of experience in
-        muiltiple companies
+        I am a Flutter developer from Dong Thap, with nearly 2 years of
+        experience.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
@@ -28,8 +28,7 @@ const Header = () => {
         </a>
 
         <a
-          href="resume.pdf"
-          download
+          href="/CV.pdf"
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
         >
           My resume
