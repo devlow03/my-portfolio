@@ -2,7 +2,7 @@ import { assets, workData } from "@/assets/assets";
 import React from "react";
 import Image from "next/image";
 
-const Work = () => {
+const Work = ({ isDarkMode }) => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
@@ -13,7 +13,7 @@ const Work = () => {
         projects showcasing my expertise in front-end development.
       </p>
 
-      <div className="grid grid-cols-auto my-10 gap-5">
+      <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
         {workData.map((project, index) => (
           <div
             key={index}
@@ -41,9 +41,16 @@ const Work = () => {
       <a
         target="_blank"
         href="https://github.com/qthien202?tab=repositories"
-        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-10"
+        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
-        show more <Image src={assets.right_arrow_bold} alt="" className="w-4" />
+        show more{" "}
+        <Image
+          src={
+            isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold
+          }
+          alt=""
+          className="w-4"
+        />
       </a>
     </div>
   );
